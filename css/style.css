@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: black;
+    padding: 20px;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.module {
+    font-weight: bold;
+}
+
+.header_text {
+    text-align: justify;
+    font-size: 30px;
+}
+
+.d-block {
+    height: 100vh;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../img/right-arrow.svg);
+    margin-left: 100px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../img/left-arrow.svg);
+    margin-right: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .module {
+        font-size: 30px;
+    }
+
+    .header_text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .d-block {
+        height: 85vh;
+    }
+
+    .text-muted {
+        font-size: 16px;
+    }
+
+    .module {
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .header_text {
+        font-size: 20px;
+    }
+
+    body {
+        padding: 50px;
+    }
+
+    .carousel-control-next-icon {
+        background-image: url(../img/right-arrow.svg);
+        margin-left: 20px;
+    }
+
+    .carousel-control-prev-icon {
+        background-image: url(../img/left-arrow.svg);
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .module {
+        font-size: 12px;
+    }
+
+    .text-muted {
+        font-size: 12px;
+    }
+
+
+    .header_text {
+        font-size: 14px;
+    }
+}
